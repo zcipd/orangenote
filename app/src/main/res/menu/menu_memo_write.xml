@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.recyclerview.MemoWrite">
+
+    <item android:id="@+id/MemoImage"
+        android:title="사진"
+        android:orderInCategory="100"
+        android:icon="@drawable/photo"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoAlarm"
+        android:title="알람"
+        android:orderInCategory="100"
+        android:icon="@drawable/alarm"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoSave"
+        android:title="저장"
+        android:orderInCategory="100"
+        android:icon="@drawable/save"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoDelete"
+        android:title="삭제"
+        android:orderInCategory="100"
+        android:icon="@drawable/delete"
+        app:showAsAction="always" />
+
+
+</menu>

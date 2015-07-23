@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.recyclerview.MemoView">
+
+    <item android:id="@+id/MemoEdit"
+        android:title="수정"
+        android:orderInCategory="100"
+        android:icon="@drawable/keyboard"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoViewImage"
+        android:title="사진"
+        android:orderInCategory="100"
+        android:icon="@drawable/photo"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoViewSave"
+        android:title="저장"
+        android:orderInCategory="100"
+        android:icon="@drawable/save"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoViewDelete"
+        android:title="삭제"
+        android:orderInCategory="100"
+        android:icon="@drawable/delete"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoViewAlarm"
+        android:title="알람"
+        android:orderInCategory="100"
+        android:icon="@drawable/alarm"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/MemoShare"
+        android:title="공유"
+        android:orderInCategory="100"
+        android:icon="@drawable/share"
+        app:showAsAction="always" />
+</menu>

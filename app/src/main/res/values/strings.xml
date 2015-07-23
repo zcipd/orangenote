@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">오렌지노트</string>
+    <string name="title_activity_memo_view">오랜지노트</string>
+    <string name="title_activity_memo_write">메모 추가</string>
+    <string name="title_activity_memo_draw">오랜지노트</string>
+    <string name="title_activity_password">password</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_password_check">password_check</string>
+</resources>

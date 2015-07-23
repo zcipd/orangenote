@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/unnamed" >
+
+    <Button
+        android:id="@+id/Time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text=" 시간 버튼 "/>
+
+    <Button
+        android:id="@+id/Date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/Time_button"
+        android:layout_alignTop="@id/Time_button"
+        android:layout_marginRight="20dp"
+        android:text= "날짜 버튼 " />
+
+    <Button
+        android:id="@+id/ok_alarm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Time_button"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/Time_button"
+        android:text=" 확 인  "
+        />
+</RelativeLayout>

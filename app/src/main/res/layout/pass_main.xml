@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/password_check_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" 확 인 "
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <EditText
+        android:id="@+id/password_check"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:password="true"
+        android:background="@color/button_material_light"
+        android:layout_above="@id/password_check_btn" />
+
+    <TextView
+        android:id="@+id/password_textbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/password_check"
+        android:text="비 밀 번 호 를 입 력 해 주 세 요"
+        android:textSize="50px"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
