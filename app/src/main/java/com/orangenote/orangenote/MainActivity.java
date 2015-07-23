@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
     ItemData ITEMDATA[];
     private DrawerLayout mDrawerLayout;
     private FTPConnect nFTP = null;
-    private String ftphost = "mercurys.iptime.org";
+    private String ftphost = "ftpserver";
     private String ftpusername = "memo3";
     private String ftppassword = "memo";
     int passok;
